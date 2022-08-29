@@ -1,0 +1,150 @@
+body{
+    height: 100vh;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+}
+:root{
+    --light-grey: #e5e7eb;
+    --navy: #1f2937;
+    --white: #f9faf8;
+    --blue: #3882f6;
+
+
+}
+
+.three{
+    background: var(--light-grey);
+    flex: 2.1;
+}
+.one{
+    background: var(--navy);
+    flex: 2.7;
+}
+
+header{
+    display: flex;
+    justify-content: space-around; 
+}
+h1{
+    color: var(--white);
+    font-size: 24px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}  
+ul li a{
+    padding:0 20px;
+    text-decoration: none;
+    color: var(--light-grey);
+    font-size: 18px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+aside{
+    width: 30%; 
+    margin-right: 40px; 
+}
+.head{
+    font-size: 48px;
+    font-weight: 700px;
+    color: var(--white);     
+}
+.phead{
+    color: var(--light-grey);
+    font-size: 18px;
+   
+}
+.sign-up{
+    padding: 10px 20px;
+    background: var(--blue) ;
+    color: var(--white);
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 12.5%;
+    margin-bottom: 70px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder 700 ;
+    color: var(--navy);
+    text-align: center;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.work{
+    height: 100px;
+    width: 100px;
+    margin:20px
+}
+.pic{
+    height: 100px;
+    width: 100px;
+    border: 3px solid var(--blue);
+    border-radius: 12.5%;
+}
+.pf{
+    font-size: 15px;
+    color:var(--navy);
+    text-align: center;
+}
+
+.bq{
+    padding: 100px;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 1, 300;
+    color: var(--navy);
+    align-content: center;
+    justify-content: center;
+    font-style: italic;   
+}
+.by{
+    
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--navy);
+    text-align: right;
+}
+
+button{
+    padding: 10px 20px;
+    background:var(--blue) ;
+    color: var(--white);
+    border: 2px solid var(--white);
+    font-weight: 700;
+    border-radius: 12.5%; 
+}
+.bbox{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;  
+    padding: 60px 30px;
+    box-sizing: border-box;
+    background: var(--blue);
+    color: var(--white);
+    width:auto;
+    height: 20px;
+    border-radius:2.5% ;
+    margin: 100px;
+}
+
+footer{
+    background: var(--navy);
+    flex: 0.5;
+    font-size: 18px ;
+    color: var(--light-grey);
+    text-align: center;
+    padding: 15px      
+}  
